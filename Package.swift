@@ -1,14 +1,14 @@
-// swift-tools-version:5.1
+// swift-tools-version:5.5
 
 import PackageDescription
 
 let package = Package(
   name: "combine-schedulers",
   platforms: [
-    .iOS(.v10),
-    .macOS(.v10_12),
-    .tvOS(.v10),
-    .watchOS(.v3),
+    .iOS(.v15),
+    .macOS(.v12),
+    .tvOS(.v15),
+    .watchOS(.v8),
   ],
   products: [
     .library(
